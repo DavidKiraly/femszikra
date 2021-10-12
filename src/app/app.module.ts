@@ -6,6 +6,7 @@ import { MainPageComponent } from './pages/main-page/main-page.component';
 import { HeaderComponentComponent } from './components/header-component/header-component.component';
 import { FooterComponentComponent } from './components/footer-component/footer-component.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {FlexModule} from "@angular/flex-layout";
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FlexModule
   ],
   providers: [],
   bootstrap: [AppComponent]
